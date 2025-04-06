@@ -46,3 +46,8 @@ Ensure the following before running:
 Install dependencies:
 ```bash
 pip install opencv-python mediapipe pyautogui
+
+▶️ Run:
+To start the gesture controller, run this file:
+
+    python b4.py
