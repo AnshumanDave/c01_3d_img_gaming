@@ -43,9 +43,10 @@ Ensure the following before running:
 - Game window in focus to receive keyboard input
 - Python 3.7+ installed
 
-Install dependencies:
-```bash
-pip install opencv-python mediapipe pyautogui
+🔧 Dependencies:
+Install the required libraries using:
+
+    pip install opencv-python mediapipe pyautogui
 
 ▶️ Run:
 To start the gesture controller, run this file:
