@@ -151,7 +151,7 @@ def process_side_camera():
                     print(f"[Side Camera] Accel/Decel Angle: {angle_deg:.2f}")
 
                     # Determine forward (accelerate) or backward (decelerate) movement.
-                    if angle_deg + 180 > ACCEL_THRESHOLD_DEG:
+                    if (angle_deg < 0) & (angle_deg + 180 > ACCEL_THRESHOLD_DEG):
                         press_key(KEYS["accelerate"])
                         release_key(KEYS["decelerate"])
                     elif 180 - angle_deg > ACCEL_THRESHOLD_DEG:
